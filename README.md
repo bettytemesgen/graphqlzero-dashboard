@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+GraphQLZero Admin Console
+A responsive, pixel-perfect dashboard and landing page built with Next.js 16 and GraphQL, designed to manage users, posts, and data architecture efficiently.
 
-## Getting Started
+🔗 Links
+Live Demo: 
 
-First, run the development server:
+Figma Design: [Insert Figma Link]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+API Documentation: GraphQLZero API
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
+Pixel-Perfect UI: Implemented using Tailwind CSS based on the provided Figma specifications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dynamic Data Fetching: Fully integrated with the GraphQLZero API using Apollo Client.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Advanced Navigation: Sticky sidebar with active-state tracking and a responsive header.
 
-## Learn More
+Search Functionality: Real-time search bar with keyboard shortcut (/) to focus.
 
-To learn more about Next.js, take a look at the following resources:
+Relational Data: Handles complex entity relationships (e.g., displaying Users associated with Posts).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Responsive Design: Fully optimized for Mobile, Tablet, and Desktop views.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+States: Includes specialized Loading (Skeletons) and Empty states for a smooth UX.
 
-## Deploy on Vercel
+Tech Stack
+Framework: Next.js 16 (App Router)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Styling: Tailwind CSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+State Management & Data: Apollo Client / GraphQL
+
+Icons: Lucide React / Custom SVGs
+
+Deployment: Vercel
