@@ -2,7 +2,7 @@ GraphQLZero Admin Console
 A responsive, pixel-perfect dashboard and landing page built with Next.js 16 and GraphQL, designed to manage users, posts, and data architecture efficiently.
 
 🔗 Links
-Live Demo: https://graphqlzero-dashboard-v8v6.vercel.app/
+Live Demo: https://betty-graphql-dashboard.vercel.app/
 
 Figma Design: https://www.figma.com/design/WIfDNN88xMHvIxPg3Fttbc/Assignment?node-id=0-1&t=2oZ2XO3gf8yCizRS-1
 
